@@ -1,4 +1,4 @@
-# raw-vue-app
+# tmp-vue-app
 
 ## Project setup
 ```
