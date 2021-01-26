@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--write $FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="prettier ts" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--write $FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="tsx" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="prettier tsx" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--write --parser scss $FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="prettier scss" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs>
+        <env name="COMPILE_PARTIAL" value="true" />
+      </envs>
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--write $FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="prettier js" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--write $FilePath$ --parser vue" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="vue" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="prettier vue" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>
