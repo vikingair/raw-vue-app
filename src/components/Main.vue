@@ -1,12 +1,10 @@
 <template>
-  <main>Test</main>
+  <main>
+    <ArticleList />
+  </main>
 </template>
 
 <script>
-import { Options, Vue } from "vue-class-component";
-
-@Options({})
-export default class Main extends Vue {}
+import { Main } from "@/components/Main.kern";
+export default Main;
 </script>
-
-<style></style>
