@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+// @ts-ignore
 import { Options, Vue } from "vue-class-component";
 import { store } from "@/store";
 

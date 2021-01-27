@@ -1,9 +1,11 @@
+// eslint-disable-next-line
+// @ts-ignore
 import { Options, Vue } from "vue-class-component";
 import ArticleList from "@/components/ArticleList.vue";
 
 @Options({
   components: {
-    ArticleList
-  }
+    ArticleList,
+  },
 })
 export class Main extends Vue {}
