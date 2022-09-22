@@ -1,20 +1,27 @@
+require("@rushstack/eslint-patch/modern-module-resolution");
+
 module.exports = {
   root: true,
-  env: {
-    node: true
-  },
+  ignorePatterns: ["node_modules", "dist", "coverage"],
   extends: [
     "plugin:vue/vue3-essential",
     "eslint:recommended",
-    "@vue/typescript/recommended",
-    "@vue/prettier",
-    "@vue/prettier/@typescript-eslint"
+    "@vue/eslint-config-typescript/recommended",
+    "@vue/eslint-config-prettier",
   ],
   parserOptions: {
-    ecmaVersion: 2020
+    ecmaVersion: "latest",
   },
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off"
-  }
+    "no-console": "warn",
+    "no-debugger": "warn",
+  },
+  overrides: [
+    {
+      files: ["*.js", "vite.config.ts"],
+      env: {
+        node: true,
+      },
+    },
+  ],
 };

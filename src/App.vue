@@ -1,17 +1,17 @@
+<script lang="ts" setup>
+import ArticleListFilter from "@/components/ArticleListFilter.vue";
+import TheMain from "@/components/TheMain.vue";
+</script>
+
 <template>
   <div class="App">
     <header>
       <img src="./assets/logo.svg" alt="logo" />
-      <ArticleFilter />
+      <ArticleListFilter />
     </header>
-    <Main />
+    <TheMain />
   </div>
 </template>
-
-<script>
-import { App } from "./App.kern";
-export default App;
-</script>
 
 <style lang="scss">
 @use "assets/main";
