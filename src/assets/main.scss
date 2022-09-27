@@ -18,6 +18,11 @@
     display: inline-block;
     margin: 0 1em 0 auto;
 
+    form {
+      display: flex;
+      align-items: center;
+    }
+
     input {
       padding: 0.4em 0.75em;
       border-radius: 0.5em;
@@ -25,6 +30,7 @@
     }
 
     button {
+      cursor: pointer;
       padding: 0.5em 1em;
       margin-left: 0.5em;
       border-radius: 0.5em;

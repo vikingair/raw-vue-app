@@ -8,7 +8,7 @@
     "lint": "pnpm lint:es && pnpm lint:ts",
     "lint:es": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --max-warnings 0 --ignore-path .gitignore",
     "lint:es:fix": "pnpm lint:es -- --fix",
-    "lint:ts": "vue-tsc --noEmit"
+    "lint:ts": "vue-tsc --noEmit -p tsconfig.json"
   },
   "dependencies": {
     "pinia": "^2.0.22",
