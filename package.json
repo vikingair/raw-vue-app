@@ -2,13 +2,18 @@
   "name": "tmp-vue-app",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdc-viktor-luft/raw-vue-app"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "pnpm lint:es && pnpm lint:ts",
     "lint:es": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --max-warnings 0 --ignore-path .gitignore",
     "lint:es:fix": "pnpm lint:es -- --fix",
-    "lint:ts": "vue-tsc --noEmit -p tsconfig.json"
+    "lint:ts": "vue-tsc --noEmit -p tsconfig.json",
+    "test": "echo 'No tests yet'"
   },
   "dependencies": {
     "pinia": "^2.0.23",
