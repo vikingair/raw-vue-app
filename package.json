@@ -2,6 +2,10 @@
   "name": "tmp-vue-app",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdc-viktor-luft/raw-vue-app"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
