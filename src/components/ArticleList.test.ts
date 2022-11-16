@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { fireEvent, render } from "@testing-library/vue";
+import { render } from "@testing-library/vue";
 import { createPinia } from "pinia";
 import ArticleList from "./ArticleList.vue";
 import { useStore } from "@/store";
