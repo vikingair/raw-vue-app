@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SWHomeWorld, SWPersonT } from "@/demos/swapi/types";
+import { SWHomeWorld, SWPersonT } from "./types";
 
 type SWPersonProps = { person: SWPersonT; homeWorld?: SWHomeWorld };
 const props = defineProps<SWPersonProps>();
